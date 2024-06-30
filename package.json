@@ -10,6 +10,9 @@
     "start": "npm run build && node out/index.js",
     "test": "jest"
   },
+  "bin": {
+    "template-cli-ts": "out/bin.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
