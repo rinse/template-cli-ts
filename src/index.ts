@@ -1,4 +1,4 @@
-import {createProgram} from "./cli";
+import {createProgram} from "./cli.js";
 
 const program = createProgram({
     doBranch: (branchName, options) => {
